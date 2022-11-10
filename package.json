@@ -1,0 +1,19 @@
+{
+  "name": "documentation",
+  "version": "0.0.1",
+  "description": "Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Froxlor Team",
+    "email": "team@froxlor.org"
+  },
+  "repository": "//github.com/Froxlor/Documentation",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

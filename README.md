@@ -6,31 +6,25 @@ Here you can find the source code of the documentation. The current version can 
 
 ## Install a local copy of the documentation
 
-Install Jekyll as described in the documentation https://jekyllrb.com/docs/installation/#requirements
-
-Check your Jekyll version:
-
-```
-jekyll -v
-```
-
 Get a local copy and start editing / view the documentation:
 
 ```
 git clone https://github.com/Froxlor/Documentation.git
 cd Documentation
-bundle install
+npm install
 ```
 
 Start the debug server :
 
 ```
-bundle exec jekyll serve --host localhost
+npm run dev
 ```
 
-Now browse to http://localhost:4000
+Now browse to http://localhost:8080
 
 ## Generating api documentation from froxlor
+
+Soon™
 
 ```
 php .generator/generate.php <version>
